@@ -1,5 +1,6 @@
 # gulp-configure
 a gulp config for routine work
+```
 //devDependencies:  npm install gulp gulp-less gulp-autoprefixer gulp-clean-css gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-livereload gulp-path gulp-cache del gulp-rev gulp-rev-collector --save-dev
 // 依赖
 var gulp = require('gulp'), 
@@ -89,5 +90,5 @@ gulp.task('watch', function() {
   gulp.watch('./ui_v5/h5-new/images/**/*', ['images']);
 
 });
-
+```
 
